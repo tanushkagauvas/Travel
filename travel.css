@@ -127,15 +127,18 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 
 }
-
+.destinations-section a{
+    text-decoration: none;
+}
 .card {
+    height: 350px;
     background: #fff;
     width: 300px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
-    transition: 400ms;
+    transition: transform 0.3 ease;
 }
 
 .card img {
